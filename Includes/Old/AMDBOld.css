@@ -1,0 +1,691 @@
+/*-------------------------------------------------------------------------------------------------------------------------------------
+The top menu
+-------------------------------------------------------------------------------------------------------------------------------------*/
+
+#topmenu
+{
+	width: 100%;
+	height: 31px;
+	background: url(Images/topgrad.gif);
+	position: relative; 
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	font-weight: bold;
+}
+
+#topmenu .select
+{
+	display: inline;
+	margin: 0; 
+	padding: 0; 
+	list-style: none; 
+	white-space: nowrap;
+}
+
+#topmenu .select a
+{
+	display: block; 
+	height: 26px; 
+	float: left; 
+	text-decoration: none; 
+	line-height: 26px; 
+	white-space: nowrap; 
+	width: 6em;
+	color: #fff;
+}
+
+#topmenu li
+{
+	line-height: 26px;
+	color: #fff;
+	float: left;
+	text-align: center;
+	width: 6em;
+}
+
+#topmenu li a:hover
+{
+	text-decoration: underline;
+}
+
+#topmenu li.lrt1
+{
+	line-height: 26px;
+	color: #fff;
+	float: right;
+	width: 8em;
+	text-align: center;
+}
+
+#topmenu li.lrt2
+{
+	line-height: 26px;
+	color: #fff;
+	float: right;
+	width: 14em;
+	text-align: center;
+}
+
+#topmenu li.lrt3
+{
+	line-height: 26px;
+	color: #fff;
+	float: right;
+	width: 7em;
+	text-align: center;
+}
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------------
+	   IX Team tab on index
+-------------------------------------------------------------------------------------------------------------------------------------*/
+
+#ixteam
+{
+	background:#3F6FC1;
+	color:#FFFFFF;
+	padding:10px 17px 5px 10px;
+	text-align:center;
+	font-size: 8pt;
+	font-weight:bold; 
+	font-family: sans-serif;	
+	width:320px;
+	height:70px;
+	position:absolute;
+	top:0;
+	right:19px;
+	border:1px solid #0B3F99;
+	border-top:none;
+}
+	
+#ixteam p
+{
+	color:#FFF;
+	margin:5px;
+}
+	
+#ixteam p a
+{
+	color:#FFFFFF;
+	cursor:pointer;
+	text-decoration:underline;
+	float:none;
+	display:inline;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+
+/*body
+{
+	overflow: hidden;	
+}*/
+
+#banner
+{
+	float: right;
+	width: 6em;
+	text-align:center;
+}
+
+#banner img.crest 
+{
+	/*padding: 18px;*/
+}
+		
+.bannerColour1
+{
+	height:80px;
+	color:#FFFFFF;
+	font-size:30px;
+	font-weight:bold;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-shadow:#000000;
+}
+
+.bannerColour2
+{
+	color:#FFFFFF;
+	font-size:20px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-shadow:#000000;
+}
+
+/*Used for the IX team tab on homepage*/
+.hideTab
+{
+	display:none;
+	visibility:hidden;
+}
+
+.showTab
+{
+	visibility:visible;
+}
+
+/* AMDB Stuff */
+
+.borderArea {
+	border-color:#7f9db9;
+	border-style:solid;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	height: 18px;
+}
+.windowBorderArea {
+	border-color:#000000;
+	border-style:solid;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+}
+.innerWindowBorderArea {
+	left:7px;top:7px;
+	border-color:#7f9db9;
+	border-style:solid;
+	border-top-width: 0px;
+	border-bottom-width: 0px;
+	border-right-width: 0px;
+	border-left-width: 0px;
+}
+
+.borderAreaTableRow {
+	border-color:#7f9db9;
+	border-style:solid;
+	border-top-width: 0px;
+	border-bottom-width: 1px;
+	border-right-width: 0px;
+	border-left-width: 0px;
+}
+.bottomLeftCorner  {
+     BACKGROUND-IMAGE: url(images/bottomLeft.gif);width:7px;height:10px;
+}
+
+.bottomLine {
+     BACKGROUND-IMAGE: url(images/bottom.gif);height:6px;
+}
+.bottomRightCorner  {
+     BACKGROUND-IMAGE: url(images/bottomRight.gif);width:7px;height:10px;
+}
+.CalenderImageAll {
+	width:292px;height:224px;background-color: #cccccc;
+	position:absolute;top:68px;left:172px;visibility:hidden;
+	border-color:#000000;
+	border-style:solid;
+	border-top-width: 1px;
+	border-bottom-width: 3px;
+	border-right-width: 3px;
+	border-left-width: 1px;
+}
+.CalenderImageShadowStyle {
+	width:292px;height:240px;background-color: #000000;
+	position:absolute;top:36px;left:106px;visibility:hidden;
+}
+.calenderCyan {
+	background-color:#33ffff;
+}
+.calenderYellow {
+	background-color:#9b0000;
+}
+.calenderBlue {
+	background-color:#3399ff;
+}
+.calenderOrange {
+	background-color:#ff9933;
+}
+
+.calenderLightOrange {
+	background-color:#ffd777;
+}
+
+
+.calenderPurple {
+	background-color:#cc99ff;
+}
+.calenderRed {
+	background-color:#ff0000;
+}
+.calenderGreen {
+	background-color:#00ff00;
+}
+.calenderBYellow {
+	background-color:#ffff33;
+}
+.calenderBlueTwo {
+	background-color:#3333ff;
+}
+.calenderTerra {
+	background-color:#cc6699;
+}
+.calenderOffGreen {
+	background-color:#99cccc;
+}
+.calenderPeaGreen {
+	background-color:#33cc99;
+}
+.calenderBrown {
+	background-color:#ffffff;
+}
+.columnheading {
+    height:22;FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #808080; FONT-FAMILY: verdana; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+.decimalbox {
+	FONT-SIZE: 8pt;
+	BORDER-RIGHT: #7f9db9 1px solid;
+	BORDER-TOP: #7f9db9 1px solid;
+	BORDER-LEFT: #7f9db9 1px solid;
+	BORDER-BOTTOM: #7f9db9 1px solid;
+	HEIGHT: 16px;
+	WIDTH: 30pt;
+	font-family: verdana;
+}
+.dropDownMouseOff {
+background-color:#ffffff;color:#000000;Cursor:default;
+}
+.dropDownMouseOn {
+background-color:#438BE4;color:#ffffff;Cursor:default;
+}
+.personalDetails {
+ 	height:22px;FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #808080; FONT-FAMILY: verdana; TEXT-ALIGN: left; TEXT-DECORATION: none;
+}
+
+._greyLeft {
+	BACKGROUND-IMAGE: url(images/greyleft.png); 
+}
+.greyLeft {
+	background-color:#aaaaaa; 
+}
+._greyMiddle {
+	BACKGROUND-IMAGE: url(images/greyMiddle.png);BACKGROUND-REPEAT: repeat-x;FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #dddddd; FONT-FAMILY: sans-serif; TEXT-DECORATION: none;
+	cursor:hand;
+}
+.greyMiddle {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; background-color:#aaaaaa;COLOR: #dddddd; FONT-FAMILY: sans-serif; TEXT-DECORATION: none;
+	cursor:hand;
+}
+._greyRight {
+	BACKGROUND-IMAGE: url(images/greyRight.png);
+}
+.greyRight {
+	background-color:#aaaaaa;
+}
+.guideMarker {
+	border-color:#ff0000;
+	border-style:solid;
+	border-top-width: 4px;
+	border-bottom-width: 4px;
+	border-right-width: 4px;
+	border-left-width: 4px;
+}
+.HierarchyWidth {
+	width:230px;
+}
+
+.iconPersonnel{
+	BACKGROUND-IMAGE: url(images/personnel.gif);width:128px;height:128px;cursor:hand;
+}
+.iconPersonnelOver{
+	BACKGROUND-IMAGE: url(images/personnelOver.gif);width:128px;height:128px;cursor:hand;
+}
+.iconTasking{
+	BACKGROUND-IMAGE: url(images/Tasking.gif);width:128px;height:128px;cursor:hand;
+}
+.iconTaskingOver{
+	BACKGROUND-IMAGE: url(images/TaskingOver.gif);width:128px;height:128px;cursor:hand;
+}
+.imagelink {
+    cursor:hand;border:0;
+}
+.inputbox {
+     FONT-SIZE: 8pt; BORDER-RIGHT: #7f9db9 1px solid; BORDER-TOP: #7f9db9 1px solid; BORDER-LEFT: #7f9db9 1px solid; BORDER-BOTTOM: #7f9db9 1px solid; HEIGHT: 16px
+}
+.inputboxEdit {
+     FONT-SIZE: 8pt;BORDER-RIGHT: #7f9db9 1px solid; BORDER-TOP: #7f9db9 1px solid; BORDER-LEFT: #7f9db9 1px solid; BORDER-BOTTOM: #7f9db9 1px solid; HEIGHT: 16px;
+}
+.inputboxsearch {
+     FONT-SIZE: 7pt;BORDER-RIGHT: #7f9db9 1px solid; BORDER-TOP: #7f9db9 1px solid; BORDER-LEFT: #7f9db9 1px solid; BORDER-BOTTOM: #7f9db9 1px solid; HEIGHT: 14px
+}
+.itemfont {
+    FONT-SIZE: 8pt;  FONT-FAMILY: verdana;COLOR: #000000
+}
+.itemfontTip {
+    FONT-SIZE: 8pt;  FONT-FAMILY: verdana;COLOR: #000000;color:#993300
+}
+.itemfontEdit {
+    FONT-SIZE: 8pt;  FONT-FAMILY: verdana;COLOR: #000000;background-color:#e4f5f1;
+}
+.itemfontbold {
+    FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: verdana;FONT-WEIGHT: bold;
+}
+.itemfontsmallgreen {
+    FONT-SIZE: 8pt;TEXT-DECORATION: none;COLOR: #003300; FONT-FAMILY: verdana;
+}
+.itemfontlink {
+    TEXT-DECORATION: none;COLOR: #003399;VERTICAL-ALIGN: top; FONT-FAMILY: verdana;
+}
+.itemfontlink:hover{
+    COLOR: #003399; TEXT-DECORATION: underline;
+}
+.itemfontlinksmall {
+    FONT-SIZE: 8pt;TEXT-DECORATION: none;COLOR: #003399; FONT-FAMILY: verdana;
+}
+.itemfontlinksmall:hover{
+    FONT-SIZE: 8pt;COLOR: #003399; TEXT-DECORATION: underline;
+}
+.leftLine  {
+     BACKGROUND-IMAGE: url(images/left.gif); HEIGHT: 100%; BACKGROUND-REPEAT: repeat-Y;
+}
+.ItemLink {
+	FONT-SIZE: 8pt; COLOR: #003399; FONT-FAMILY: verdana;
+}
+.ItemLink:hover {
+	FONT-SIZE: 8pt; COLOR: #003399; FONT-FAMILY: verdana; TEXT-DECORATION: underline;cursor:hand;
+}
+.mainWorkArea {
+    BACKGROUND-COLOR: #bfd999
+}
+.menuBackground {
+    BACKGROUND-COLOR: #eeeeff
+}
+.menuHeader {
+     BACKGROUND-IMAGE: url("images/topgrad.gif");BACKGROUND-REPEAT: repeat-x;
+}
+.MenuStyleParent {
+    FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Verdana, sans-serif; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.MenuStyleParent A:link {
+    FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #003399; FONT-FAMILY: Verdana, sans-serif; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+.MenuStyleParent A:visited {
+    FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #003399; FONT-FAMILY: Verdana, sans-serif; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+.MenuStyleParent A:hover {
+    TEXT-DECORATION: underline
+}
+.mouseHand {
+Cursor:Hand;
+}
+.ms_main {
+	width:1024px;
+}
+.ms-toolbar {
+  BORDER-RIGHT: #dce3eb 1px solid; BORDER-TOP: #dce3eb 1px solid;
+  BACKGROUND-IMAGE: url(images/toolgradp.gif); BORDER-LEFT: #dce3eb 1px solid;
+  BORDER-BOTTOM: #dce3eb 1px solid; BACKGROUND-COLOR: #dce3eb
+}
+.numberbox {
+	FONT-SIZE: 8pt;
+	BORDER-RIGHT: #7f9db9 1px solid;
+	BORDER-TOP: #7f9db9 1px solid;
+	BORDER-LEFT: #7f9db9 1px solid;
+	BORDER-BOTTOM: #7f9db9 1px solid;
+	HEIGHT: 16px;
+	WIDTH: 12pt;
+	font-family: verdana;
+}
+._overGreyMiddle {
+	BACKGROUND-IMAGE: url(images/greyMiddle.png);BACKGROUND-REPEAT: repeat-x;FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #ffffff; FONT-FAMILY: sans-serif; TEXT-DECORATION: none;
+	cursor:hand;
+}
+.overGreyMiddle {
+	background-color:#999999;COLOR: #ffffff; FONT-FAMILY: sans-serif; TEXT-DECORATION: none;
+	cursor:hand;
+}
+.pickbox {
+    FONT-SIZE: 8pt;
+	width: 245px;
+}
+.PopUpWindow {
+	width: 300px;
+	height: 160px;
+	background-color: #EEE;
+	padding: 10px;
+	position: absolute;
+	top: 0px;
+	/*left: 50%;*/
+	visibility: hidden;
+	border: 1px solid #000;
+	z-index: 100;
+}
+.PopUpWindowPostDetails {
+	width:600px;
+	height:140px;
+	background-color: #EEE;
+	padding: 10px;
+	position:absolute;
+	visibility:hidden;
+	border: 1px solid #000;
+	z-index: 100;
+}
+
+#container
+{
+	top:0px;
+	width:100%;
+	height:250px;
+	position:absolute;
+}
+
+.PopUp {
+	width: 300px;
+	height: 160px;
+	background-color: #EEE;
+	padding: 10px;
+	position: absolute;
+	top: 0px;
+	/*left: 50%;*/
+	visibility: hidden;
+	border: 1px solid #000;
+	z-index: 100;
+}
+
+/*
+.PopUpWindowShadowStyle {
+	width:292px;height:240px;background-color: #000000;
+	position:absolute;top:45px;left:506px;visibility:visible;
+}
+*/
+.QHeaderLink {
+    TEXT-DECORATION: none;COLOR: #000000;VERTICAL-ALIGN: top; FONT-FAMILY: verdana;
+}
+.QHeaderLink:hover{
+    COLOR: #ff0000; TEXT-DECORATION: underline;
+}
+
+.rightLine  {
+     BACKGROUND-IMAGE: url(images/right.gif); HEIGHT: 100%; BACKGROUND-REPEAT: repeat-Y;
+}
+.rightmenuspace {
+	width:20px;
+}
+
+.ScrollingAreaQs {
+	overflow:auto;width:660px;height:240px;background-color:#ffffff;
+	border-color:#7f9db9;
+	border-style:solid;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+}
+	
+.ScrollingAreaTasking {
+	Overflow:auto;width:767px;height:250px;background-color:#ffffff;
+	border-color:#7f9db9;
+	border-style:solid;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+}
+
+.ScrollingAreaTaskingUnit
+{
+	Overflow:auto;width:767px;background-color:#ffffff;
+	border-color:#7f9db9;
+	border-style:solid;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-right-width: 1px;
+	border-left-width: 1px;	
+}
+
+.ScrollingAreaTeams {
+	Overflow:auto;width:985px;height:240px;background-color:#ffffff;
+	border-color:#7f9db9;
+	border-style:solid;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+}
+.ScrollingAreaTeamsReport {
+	Overflow:auto;width:985px;height:205px;background-color:#ffffff;
+	border-color:#7f9db9;
+	border-style:solid;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+}
+.ScrollingPostMove{
+	Overflow:scroll;width:485px;height:240px;background-color:#ffffff;
+	border-color:#7f9db9;
+	border-style:solid;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+}
+.ScrollingArea {
+	Overflow:auto;height:344px;width:300px;
+	border-color:#7f9db9;
+	border-style:solid;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+}
+.searchheading {
+    FONT-WEIGHT: normal; FONT-SIZE: 7pt; COLOR: #808080; FONT-FAMILY: verdana; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+.SectionHeader {
+     BACKGROUND-IMAGE: url(images/toolgradp.gif); height:24px;BACKGROUND-REPEAT: repeat-x;
+}
+.SectionHeaderPlain {
+     BACKGROUND-color:#dce3eb;
+}
+._SectionHeaderGreen {
+     BACKGROUND-IMAGE: url(images/greenGradient.jpg); height:20px;BACKGROUND-REPEAT: repeat-x;
+}
+.SectionHeaderGreen {
+     BACKGROUND-color:#cbe9d1;
+}
+._SectionHeaderRed {
+     BACKGROUND-IMAGE: url(images/redGradient.jpg); height:20px;BACKGROUND-REPEAT: repeat-x;
+}
+.SectionHeaderRed {
+     BACKGROUND-color:#fcced1;
+}
+.sideMenu {
+     BACKGROUND-IMAGE: url(images/vgradp.gif); HEIGHT: 100%; BACKGROUND-REPEAT: repeat-Y;
+}
+.sidemenuItems {
+ TEXT-DECORATION: none; FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: verdana;Cursor:Hand;
+}
+.sidemenuItems:hover {
+ TEXT-DECORATION: underline; FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: verdana;Cursor:Hand;
+}
+.sidemenuwidth {
+	width:200px;
+}
+.subheading {
+    FONT-SIZE: 10pt; COLOR: #003399; FONT-FAMILY: verdana
+}
+._tabLeft {
+	BACKGROUND-IMAGE: url(images/titleleft.png); 
+}
+.tabLeft {
+	background-color:#668cd3;
+}
+._tabMiddle {
+	BACKGROUND-IMAGE: url(images/titleMiddle.png);BACKGROUND-REPEAT: repeat-x;FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #ffffff; FONT-FAMILY: sans-serif; TEXT-DECORATION: none;
+	cursor:hand;
+}
+.tabMiddle {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; background-color:#668cd3;COLOR: #ffffff; FONT-FAMILY: sans-serif; TEXT-DECORATION: none;
+	cursor:hand;
+}
+._tabRight {
+	BACKGROUND-IMAGE: url(images/titleRight.png);
+}
+
+.tabRight {
+	background-color:#668cd3;
+}
+
+._tabBottom {
+     BACKGROUND-IMAGE: url(images/tabGradient.jpg); height:20px;BACKGROUND-REPEAT: repeat-x;
+}
+.tabBottom {
+     background-color:#668cd3; 
+}
+.TaskItemOver {
+    FONT-SIZE: 8pt;  FONT-FAMILY: verdana;
+}
+.teamPlanner {
+    height:12;FONT-WEIGHT: normal; FONT-SIZE: 7pt; COLOR: #808080; FONT-FAMILY: verdana; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+.testTab {
+     BACKGROUND-IMAGE: url(images/testTab.gif);height:6px;FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: verdana
+}
+.testTabHover {
+     BACKGROUND-IMAGE: url(images/testTabHover.gif);height:6px;FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #ffffff; FONT-FAMILY: verdana;Cursor:Hand;
+}
+.testTabUnselected {
+     BACKGROUND-IMAGE: url(images/testTabUnselected.gif);height:6px;width:120;FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: verdana;Cursor:Hand;
+}
+.titlearea {
+    FONT-SIZE: 14pt; FONT-FAMILY: verdana
+}
+.titlearealine {
+    BACKGROUND-COLOR: #cccccc
+}
+.titleseparator {
+    FONT-SIZE: 10pt; COLOR: #444444
+}
+.toolbar {
+	FONT-SIZE: 8pt; COLOR: #003399; FONT-FAMILY: verdana; TEXT-DECORATION: none
+}
+.topLeftCorner  {
+     BACKGROUND-IMAGE: url(images/topLeft.gif);width:7px;height:22px;
+}
+.topmenuItems {
+  TEXT-DECORATION: none; FONT-WEIGHT: bold;FONT-SIZE: 8pt; COLOR: #ffffff; FONT-FAMILY: verdana;Cursor:Hand;
+}
+.topmenuItems:hover {
+  TEXT-DECORATION: underline; FONT-WEIGHT: bold;FONT-SIZE: 8pt; COLOR: #ffffff; FONT-FAMILY: verdana;Cursor:Hand;
+}
+.TopMenuStyle {
+    FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #ffffff; FONT-FAMILY: sans-serif; TEXT-DECORATION: none
+}
+.TopMenuStyle:hover {
+    FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #ffffff; FONT-FAMILY: sans-serif; TEXT-DECORATION: underline
+}
+.topRightCorner  {
+     BACKGROUND-IMAGE: url(images/TopRight.gif);width:7px;height:22px;
+}
+.twentyTwo{
+	height:80px;
+}
+.vLine {
+     BACKGROUND-IMAGE: url(images/dotForLine.gif);width:100%;height:28px;
+}
+.whiteOnBlack {
+	COLOR: #ffffff;background-color:#000000;
+}
+.youAreHere {
+	FONT-SIZE: 8pt;;FONT-FAMILY: verdana;color:000000;background-color:#ffd777;
+}
