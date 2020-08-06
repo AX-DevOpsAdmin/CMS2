@@ -1,0 +1,31 @@
+/* Styling for the Events Calendar */
+.plannerCal {
+	padding-left:450px;
+}
+.weekend {background-color:#eefcec;} /* defined by the dClass object in the day model. */
+.today {background-color:#ecf8fc; border-left:1px solid #00a9c6; } /* defined by the dClass object in the day model. */
+
+.tableCal thead > tr > th, .tableCal tbody > tr > td {border-bottom:1px dotted #ccc;border-right:1px dotted #ccc;}
+
+.tableCal thead > tr > th > div {height: 50%; text-align: center; }
+
+.tableCal tbody > tr > td {height:20px; width:20px; padding:3px;}
+ 
+.tableCal tbody > tr > th { min-width:100px; text-wrap:none; overflow:hidden; color:#333; font-weight:normal; border-right:1px dotted #ccc; border-bottom:1px dotted #ccc; font-size:12px;}
+.tableCal tbody > tr > td > div{width:inherit; height:inherit; border-radius:9pt;}
+.tableCal tbody > tr > td > div[title]:hover{border:1px dotted #000;}
+.tableCal td:hover {background-color:#fff9ec}
+
+.colhover {border-left:solid 2px #5da8fa; border-right:solid 2px #5da8fa;} /* activated with jquery*/
+.rowhover {border-top:solid 2px #5da8fa; border-bottom:solid 2px #5da8fa;} /* activated with jquery*/
+
+.tableCal { width: 700px; table-layout:fixed; }
+.tableCal tr > td {height:20px; width:20px;  font-size:9pt;}
+.tableCal tr > th {height:20px; width:155px;}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #666;
+}
+.tableCal .firstcolspan {
+	
+}
